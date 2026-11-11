@@ -50,7 +50,7 @@ st.set_page_config(
 # Never share your API keys publicly.
 
 client = genai.Client(
-    api_key="AQ.Ab8RN6J6U0QtwGWSgqHHGppMz5kLVgdy3gsDybfUgm_6tsewBg"
+    api_key="Your gemini API Key"
 )
 try:
     test = client.models.generate_content(
